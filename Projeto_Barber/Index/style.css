@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-fit: cover;
+
+}
+
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+}

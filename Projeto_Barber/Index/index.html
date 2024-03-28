@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooklyn Barbershop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Imagem/imagembarber.jpg" alt="Barbershop">
+    
+    <div class="container">
+        <form action="submit/" method="post">
+            <fieldset>
+                <legend>Dados Gerais</legend>
+                <label for="nome">Qual o seu Nome: </label>
+                <input type="text" id="nome" name="nome"><br><br>
+                
+                <label for="telefone">Deixe seu Contato: </label>
+                <input type="tel" minlength="11"  id="telefone" name="telefone"><br><br>
+                
+                <label for="data">Qual a data do Agendamento: </label>
+                <input type="date" id="data" name="data"><br><br>
+                
+                <label for="Horario">Qual o melhor Horario: </label>
+                <input type="time" id="Horario" name="Horario"><br><br>
+
+                <label for="tipo_serviço">Escolha o serviço Pretendido</label>
+                <select name="serviços" id="serviços">
+                    <option value="">Corte Maquina</option>
+                    <option value="">Corte Disfarçado</option>
+                    <option value="">Corte Tesoura</option>
+                    <option value="">Corte e Barba</option>
+
+                </select><br><br>
+                
+                <button type="submit">Agendar</button>
+            </fieldset>
+            
+        </form>
+    </div>
+</body>
+</html>
